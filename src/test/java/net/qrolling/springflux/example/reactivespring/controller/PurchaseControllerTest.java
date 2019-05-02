@@ -23,7 +23,7 @@ public class PurchaseControllerTest {
 
     @Before
     public void setUp() throws Exception {
-        webTestClient.bindToApplicationContext(this.context)
+        WebTestClient.bindToApplicationContext(this.context)
                 .build();
     }
 
